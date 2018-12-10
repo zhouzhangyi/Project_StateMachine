@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/StateInfo.h
+StateMachine.h
+../include/StateMachine.h
+iostream
+-
+
+../include/StateMachine.h
+
+/home/zhouzy/01_My_Study/Myshare_StateMachine/src/Scheduler.cpp
+iostream
+-
+sys/time.h
+-
+sys/select.h
+-
+time.h
+-
+stdio.h
+-
+StateMachine.h
+/home/zhouzy/01_My_Study/Myshare_StateMachine/src/StateMachine.h
+StateInfo.h
+/home/zhouzy/01_My_Study/Myshare_StateMachine/src/StateInfo.h
+
+/home/zhouzy/01_My_Study/Myshare_StateMachine/src/StateInfo.cpp
+StateMachine.h
+/home/zhouzy/01_My_Study/Myshare_StateMachine/src/StateMachine.h
+iostream
+-
+
+/home/zhouzy/01_My_Study/Myshare_StateMachine/src/StateMachine.cpp
+StateMachine.h
+/home/zhouzy/01_My_Study/Myshare_StateMachine/src/StateMachine.h
+iostream
+-
+cstring
+-
+
